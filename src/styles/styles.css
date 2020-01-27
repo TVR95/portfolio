@@ -1,0 +1,240 @@
+/* 
+Color pallete:
+#1b262c
+#0f4c75
+#3282b8
+#bbe1fa 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b262c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+    margin-left: 303px;
+}
+
+/* Header */
+
+header {
+    background-color: #0f4c75;
+    border-right: 3px solid #3282b8;
+    position: fixed;
+    height: 100%;
+    width: 300px;
+}
+
+.navigation a {
+    color: white;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;  
+}
+
+.navigation a:hover {
+    background-color: #1b262c;
+    border-right: 10px solid #3282b8;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation li {
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Top */
+
+.top {
+    height: 100vh;
+    text-align: center;
+}
+
+.top h1 {
+    color: white;
+    padding-top: 25%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* About */
+
+.about {
+    background-color: #bbe1fa;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.about h1 {
+    color: #1b262c;
+}
+
+.about p {
+    margin: 32px 128px 0 128px;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Skills */
+
+.skills {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.skills h1, h2 {
+    color: white;
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.frontend {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.backend {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.photoSkill {
+    max-height: 100px;
+    max-width: 260px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Projects */
+
+.projects {
+    background-color: #bbe1fa;
+    padding-top: 128px;
+    padding-bottom: 128px; 
+}
+
+.projects h1 {
+    color: #1b262c;
+}
+
+.projects-thumbnails {
+    margin: 32px auto;
+    width: 50%;
+}
+
+.coffee-thumbnail {
+    background-image: url('../resources/Home-c.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #3282b8;
+    height: 50vh;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.coffee-thumbnail:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.crypto-thumbnail {
+    background-image: url('../resources/Home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #3282b8;
+    margin-top: 16px;
+    height: 50vh;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.crypto-thumbnail:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);    
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Contact */
+
+.contact {
+    padding-top: 128px; 
+    padding-bottom: 128px;
+}
+
+.contact h1, h3, h4 {
+    color: white;
+}
+
+.contact h3, h4 {
+    margin-top: 32px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Footer */
+
+footer {
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 64px; 
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
