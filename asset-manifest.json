@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a65193d1.chunk.css",
+    "main.js": "/portfolio/static/js/main.34788dbc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.34788dbc.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fed7eca6.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fed7eca6.js.map",
+    "static/js/2.33a145c7.chunk.js": "/portfolio/static/js/2.33a145c7.chunk.js",
+    "static/js/2.33a145c7.chunk.js.map": "/portfolio/static/js/2.33a145c7.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.8a14ee5de95df401ad305c834435a2c1.js": "/portfolio/precache-manifest.8a14ee5de95df401ad305c834435a2c1.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.a65193d1.chunk.css.map": "/portfolio/static/css/main.a65193d1.chunk.css.map",
+    "static/js/2.33a145c7.chunk.js.LICENSE": "/portfolio/static/js/2.33a145c7.chunk.js.LICENSE",
+    "static/media/styles.css": "/portfolio/static/media/Home.4a93a56b.png",
+    "static/media/MongoDB_Logo_FullColorBlack_RGB.png": "/portfolio/static/media/MongoDB_Logo_FullColorBlack_RGB.3d40302b.png",
+    "static/media/angular.svg": "/portfolio/static/media/angular.5c69e565.svg",
+    "static/media/mysql.svg": "/portfolio/static/media/mysql.f80a91ba.svg",
+    "static/media/nodejs-new-pantone-black.png": "/portfolio/static/media/nodejs-new-pantone-black.46f75866.png",
+    "static/media/react.svg": "/portfolio/static/media/react.4009eef3.svg",
+    "static/media/spring-by-pivotal.png": "/portfolio/static/media/spring-by-pivotal.229ed799.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fed7eca6.js",
+    "static/js/2.33a145c7.chunk.js",
+    "static/css/main.a65193d1.chunk.css",
+    "static/js/main.34788dbc.chunk.js"
+  ]
+}
