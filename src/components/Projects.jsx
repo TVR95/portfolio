@@ -1,8 +1,5 @@
 import React from "react";
 
-import Coffee from "./Coffee";
-import Crypto from "./Crypto";
-
 function Projects() {
     return (
         <section id="projects">
